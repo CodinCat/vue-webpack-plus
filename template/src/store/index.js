@@ -11,9 +11,10 @@ const actions = {
   increment: ({ commit }) => commit('INCREMENT'){{#if_eq lintConfig "airbnb"}},{{/if_eq}}
 }{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 
+/* eslint-disable no-param-reassign, no-shadow */
 const mutations = {
-  INCREMENT (state) {
-    state.count++
+  INCREMENT{{#unless_eq lintConfig "airbnb"}} {{/unless_eq}}(state) {
+    state.count++{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
   }{{#if_eq lintConfig "airbnb"}},{{/if_eq}}
 }{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 
