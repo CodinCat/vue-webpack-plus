@@ -2,6 +2,8 @@
 /* eslint-disable no-extend-native */
 Function.prototype.bind = require('function-bind'){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 
+window.Promise = require('promise-polyfill'){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+
 // require all test files (files that ends with .spec.js)
 const testsContext = require.context('./specs', true, /\.spec$/){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 testsContext.keys().forEach(testsContext){{#if_eq lintConfig "airbnb"}};{{/if_eq}}

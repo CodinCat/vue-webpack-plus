@@ -1,7 +1,9 @@
 <template>
   <div id="app">
-    <router-link to="/">Home</router-link>
-    <router-link to="/counter">Counter</router-link>
+    <nav>
+      <router-link to="/">Home</router-link>
+      <router-link to="/counter">Counter</router-link>
+    </nav>
     <router-view></router-view>
   </div>
 </template>
@@ -26,8 +28,12 @@ body {
   text-align: center;
 }
 
-#app a {
+a {
   color: #42b983;
   text-decoration: none;
+}
+
+nav a {
+  font-size: 24px;
 }
 </style>
