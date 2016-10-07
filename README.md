@@ -1,9 +1,8 @@
 # vue-webpack-plus boilerplate
 
-## Documentation
-
-- [For official webpack template](http://vuejs-templates.github.io/webpack): common questions specific to official webpack template are answered and each part is described in greater detail
-- [For Vue 2.0](http://rc.vuejs.org/guide/): general information about how to work with Vue, not specific to this template
+- Vue 2.0
+- Vuex 2.0
+- Vue Router 2.0
 
 ## Usage
 
@@ -42,6 +41,11 @@ $ npm run dev
   - Works with one command out of the box:
     - Selenium and chromedriver dependencies automatically handled.
     - Automatically spawns the Selenium server.
+
+## Documentation
+
+- [For official webpack template](http://vuejs-templates.github.io/webpack): common questions specific to official webpack template are answered and each part is described in greater detail
+- [For Vue 2.0](http://rc.vuejs.org/guide/): general information about how to work with Vue, not specific to this template
 
 ### Fork It And Make Your Own
 
