@@ -17,16 +17,20 @@ module.exports = {
   ],
   {{#if_eq lintConfig "airbnb"}}
   // check if imports actually resolve
-  'settings': {
+  settings: {
     'import/resolver': {
       'webpack': {
         'config': 'build/webpack.base.conf.js'
       }
     }
   },
+  globals: {
+    'window': true,
+    'document': true
+  },
   {{/if_eq}}
   // add your custom rules here
-  'rules': {
+  rules: {
     {{#if_eq lintConfig "standard"}}
     // allow paren-less arrow functions
     'arrow-parens': 0,

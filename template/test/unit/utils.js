@@ -10,7 +10,7 @@ export function getVM{{#unless_eq lintConfig "airbnb"}} {{/unless_eq}}(component
   return new Vue({
     el: document.createElement('div'),
     store,
-    render: (h) => h(component, { ref: 'component' }){{#if_eq lintConfig "airbnb"}},{{/if_eq}}
+    render: h => h(component, { ref: 'component' }){{#if_eq lintConfig "airbnb"}},{{/if_eq}}
   }).$mount(){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 }
 

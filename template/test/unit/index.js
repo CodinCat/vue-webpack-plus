@@ -1,5 +1,5 @@
 // Polyfill fn.bind() for PhantomJS
-/* eslint-disable no-extend-native */
+/* eslint-disable no-extend-native{{#if_eq lintConfig "airbnb"}}, import/no-extraneous-dependencies{{/if_eq}} */
 Function.prototype.bind = require('function-bind'){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 
 window.Promise = require('promise-polyfill'){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
