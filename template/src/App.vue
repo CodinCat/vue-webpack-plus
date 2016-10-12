@@ -1,12 +1,17 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link>
-      <router-link to="/counter">Counter</router-link>
-    </nav>
+    <navbar></navbar>
     <router-view></router-view>
   </div>
 </template>
+
+<script>
+import Navbar from 'components/Navbar'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+
+export default {
+  components: { Navbar }{{#if_eq lintConfig "airbnb"}},{{/if_eq}}
+}{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+</script>
 
 <style>
 html {
@@ -23,7 +28,7 @@ body {
 #app {
   color: #2c3e50;
   margin-top: -100px;
-  max-width: 600px;
+  width: 600px;
   font-family: Source Sans Pro, Helvetica, sans-serif;
   text-align: center;
 }
@@ -31,9 +36,5 @@ body {
 a {
   color: #42b983;
   text-decoration: none;
-}
-
-nav a {
-  font-size: 24px;
 }
 </style>
