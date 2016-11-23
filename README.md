@@ -2,7 +2,7 @@
 
 Fork of official Vue webpack template, with vuex & vue-router ready.
 
-- Vue 2.0
+- Vue 2.1
 - Vuex 2.0
 - Vue Router 2.0
 - Vuex Router Sync
