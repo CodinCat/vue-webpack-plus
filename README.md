@@ -1,10 +1,10 @@
 # vue-webpack-plus boilerplate
 
-Fork of official Vue webpack template, with vuex & vue-router ready.
+Fork of official [Vue.js webpack template](https://github.com/vuejs-templates/webpack/), with [vuex](https://github.com/vuejs/vuex) & [vue-router](https://github.com/vuejs/vue-router) ready.
 
 - Vue 2.1
 - Vuex 2.0
-- Vue Router 2.0
+- Vue Router 2.1
 - Vuex Router Sync
 
 ## Usage
