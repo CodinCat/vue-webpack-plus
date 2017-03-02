@@ -35,7 +35,7 @@ $ npm run dev
   - All static assets compiled with version hashes for efficient long-term caching, and a production `index.html` is auto-generated with proper URLs to these generated assets.
 
 - `npm run unit`: Unit tests run in PhantomJS with [Karma](http://karma-runner.github.io/0.13/index.html) + [Mocha](http://mochajs.org/) + [karma-webpack](https://github.com/webpack/karma-webpack).
-  - Supports ES2015 in test files.
+  - Supports ES2015+ in test files.
   - Supports all webpack loaders.
   - Easy mock injection.
 
