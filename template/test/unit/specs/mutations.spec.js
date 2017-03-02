@@ -1,4 +1,4 @@
-import * as mutations from 'src/store/mutations'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+import * as mutations from '@/store/mutations'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 
 {{#if_eq lintConfig "airbnb"}}
 /* eslint-disable new-cap */

@@ -1,5 +1,5 @@
 import Vue from 'vue'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
-import Counter from 'src/components/Counter'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+import Counter from '@/components/Counter'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 import { getVM, getMockedStore } from '../utils'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 
 describe('Counter.vue', () => {

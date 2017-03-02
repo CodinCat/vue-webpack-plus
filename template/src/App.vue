@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import Navbar from 'components/Navbar'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+import Navbar from '@/components/Navbar'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 
 export default {
   components: { Navbar }{{#if_eq lintConfig "airbnb"}},{{/if_eq}}

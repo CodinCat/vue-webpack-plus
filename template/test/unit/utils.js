@@ -1,8 +1,8 @@
 import Vue from 'vue'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 import Vuex from 'vuex'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
-import * as actions from 'src/store/actions'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
-import * as mutations from 'src/store/mutations'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
-import state from 'src/store/state'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+import * as actions from '@/store/actions'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+import * as mutations from '@/store/mutations'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+import state from '@/store/state'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 
 Vue.use(Vuex){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 
