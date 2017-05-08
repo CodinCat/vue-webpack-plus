@@ -2,9 +2,9 @@
 
 This is a fork of official [Vue.js webpack template](https://github.com/vuejs-templates/webpack/), with [vuex](https://github.com/vuejs/vuex) & [vue-router](https://github.com/vuejs/vue-router) ready.
 
-- Vue 2.2
-- Vuex 2.2
-- Vue Router 2.3
+- Vue 2.3
+- Vuex 2.3
+- Vue Router 2.5
 - Vuex Router Sync
 
 ## Usage
